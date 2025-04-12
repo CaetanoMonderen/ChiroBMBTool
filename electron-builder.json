@@ -1,0 +1,18 @@
+{
+  "appId": "com.chiro.bmb.cashier",
+  "productName": "Chiro BMB Cashier",
+  "directories": {
+    "output": "dist"
+  },
+  "files": ["dist/**/*", "out/**/*", "package.json"],
+  "mac": {
+    "category": "public.app-category.finance"
+  },
+  "win": {
+    "target": ["nsis"]
+  },
+  "linux": {
+    "target": ["AppImage", "deb"],
+    "category": "Office"
+  }
+}
